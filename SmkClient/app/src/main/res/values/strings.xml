@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">e通卡年审补登</string>
+    <string name="btn_login">登录</string>
+    <string name="hint_phone">请输入手机号</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="title_register">新用户注册</string>
+    <string name="title_recharge">贴卡吥噔</string>
+    <string name="title_recharge_confirm">确认吥噔</string>
+    <string name="title_history">充值记录</string>
+    <string name="title_query">卡片查询</string>
+    <string name="title_recharge_list">订单查询</string>
+    <string name="title_list_detail">订单详情</string>
+    <string name="title_results">充值结果</string>
+    <string name="title_result">查询结果</string>
+    <string name="queryReadCard">卡片不要那开！</string>
+    <string name="query_history">卡片历史交易记录</string>
+    <string name="tx_cardType">卡片类型</string>
+    <string name="tx_cardBalance">余额</string>
+    <string name="tx_historyTitle">最近10笔消费记录</string>
+    <string name="tx_step1">读取卡号</string>
+    <string name="tx_step2">在线支付</string>
+    <string name="tx_step3">完成充值</string>
+    <string name="btn_finish">完成</string>
+    <string name="loading_notice">数据正在加载中...</string>
+    <string name="notice_title">温馨提示</string>
+</resources>

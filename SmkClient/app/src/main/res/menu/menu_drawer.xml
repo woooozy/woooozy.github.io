@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="首页"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:title="商城"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:title="财富"/>
+        <item
+            android:id="@+id/nav_discussion"
+            android:title="我的"/>
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:title="关于我们"/>
+            <item
+                android:title="版本更新"/>
+        </menu>
+    </item>
+
+</menu>

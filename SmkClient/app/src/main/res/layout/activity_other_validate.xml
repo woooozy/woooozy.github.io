@@ -1,0 +1,299 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+    <include layout="@layout/activity_base_toolbar" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorWhite" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/gray_one"
+                android:paddingBottom="30dp">
+                <TextView
+                    android:id="@+id/step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="在弹框出现后将易通卡贴在手机背后不要移动"
+                    android:textColor="@color/black_five"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/btn_near"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@mipmap/bt_near_nfc" />
+
+                    <LinearLayout
+                        android:id="@+id/why"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btn_near"
+                        android:gravity="center_vertical"
+                        android:layout_centerHorizontal="true" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/btn_why" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="请贴卡"
+                            android:textColor="@color/red_one" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- 提示信息 -->
+
+            <LinearLayout
+                android:id="@+id/lin_notice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/step2_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="你需要知道的:"
+                    android:textColor="@color/black_five"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/step2_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="1. 使用中必须开启NFC功能\n2.请勿中途退出\n3. 暂时不提供发票\n4. 易通卡官方客服热线：968870"
+                    android:textColor="@color/black_five"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!-- 充值信息 -->
+
+            <LinearLayout
+                android:id="@+id/lin_change"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/card_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="卡号：123456"
+                    android:textColor="@color/black_five"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="余额：49.70"
+                        android:textColor="@color/black_five"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/record"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="查看最近十笔消费记录"
+                        android:textColor="@color/blue_list_item_selected" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/choose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="选择充值金额(元)"
+                        android:textColor="@color/black_five"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/money_record"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="查看此卡的充值记录"
+                        android:textColor="@color/blue_list_item_selected" />
+                </RelativeLayout>
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/group">
+
+                    <RadioButton
+                        android:id="@+id/check1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="20"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:button="@null"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/check2"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="50"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        android:button="@null"/>
+
+                    <RadioButton
+                        android:id="@+id/check3"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        android:button="@null"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/group1">
+
+                    <RadioButton
+                        android:id="@+id/check4"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="200"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        android:button="@null"/>
+
+                    <RadioButton
+                        android:id="@+id/check5"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="300"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        android:button="@null"/>
+
+                    <RadioButton
+                        android:id="@+id/check6"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="500"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black_five"
+                        android:background="@drawable/btn_radio_selector"
+                        android:button="@null"/>
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/transparent" >
+
+    </RelativeLayout> -->
+    <TextView
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray_one"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/button_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/winxin_change"
+            android:layout_centerInParent="true"
+            style="@style/bottom_btn"
+            android:text="确    定"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>

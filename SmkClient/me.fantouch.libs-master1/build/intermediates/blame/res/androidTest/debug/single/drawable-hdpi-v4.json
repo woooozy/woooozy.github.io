@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicativeradio_drawabletop_highlight.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicativeradio_drawabletop_highlight.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\scrolladv_indicator_default.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scrolladv_indicator_default.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicativeradio_drawabletop_default.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicativeradio_drawabletop_default.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\iostitlebar_rightbtn_default.9.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\iostitlebar_rightbtn_default.9.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicativeradio_default_indicator.9.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicativeradio_default_indicator.9.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\iostitlebar_leftbtn_default.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\iostitlebar_leftbtn_default.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\iostitlebar_bg.9.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\iostitlebar_bg.9.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicativeradio_default_radiogp_bg.9.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicativeradio_default_radiogp_bg.9.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\iostitlebar_rightbtn_highlight.9.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\iostitlebar_rightbtn_highlight.9.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\iostitlebar_leftbtn_highlight.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\iostitlebar_leftbtn_highlight.png"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\scrolladv_indicator_focused.png",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scrolladv_indicator_focused.png"
+    }
+]

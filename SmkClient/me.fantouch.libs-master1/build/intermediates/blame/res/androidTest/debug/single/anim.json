@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_button_show.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_button_show.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\indicativeradio_show.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\indicativeradio_show.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_button_hide.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_button_hide.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\indicativeradio_hide.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\indicativeradio_hide.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_button_back_show.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_button_back_show.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_textview_hide_for_back.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_textview_hide_for_back.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_textview_hide_for_forward.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_textview_hide_for_forward.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_button_back_hide.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_button_back_hide.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_textview_show_for_back.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_textview_show_for_back.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\main_title_textview_show_for_forward.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\anim\\main_title_textview_show_for_forward.xml"
+    }
+]

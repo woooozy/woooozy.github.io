@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IOSTitleBar"><attr format="reference" name="leftButton_background"/><attr format="dimension" name="leftButton_maiginLeft"/><attr format="color" name="leftButton_textColor"/><attr format="dimension" name="leftButton_textSiz"/><attr format="reference" name="rightButton_background"/><attr format="dimension" name="rightButton_maiginLeft"/><attr format="color" name="rightButton_textColor"/><attr format="dimension" name="rightButton_textSize"/><attr format="color" name="titleText_color"/><attr format="dimension" name="titleText_size"/><attr name="leftButton_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/><enum name="gone" value="2"/></attr><attr name="rightButton_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/><enum name="gone" value="2"/></attr></declare-styleable>
+    <declare-styleable name="IndicativeRadioGroup"><attr format="reference|color" name="indicatorDrawable"/><attr format="integer" name="indicatorMoveAnimationDuration"/><attr format="integer" name="indicatorRestoreAnimationDuration"/><attr format="reference" name="hideAnimation"/><attr format="reference" name="showAnimation"/></declare-styleable>
+    <declare-styleable name="PagerContainer"><attr format="dimension" name="page_margin"/><attr format="dimension" name="page_width"/><attr format="dimension" name="page_height"/></declare-styleable>
+    <declare-styleable name="ScrollAdv"><attr format="integer" name="remainDur"/><attr format="integer" name="switchAnimDur"/><attr format="reference" name="indicator_default"/><attr format="reference" name="indicator_focused"/><attr format="reference" name="loading_img"/><attr format="reference" name="load_fail_img"/><attr format="dimension" name="indicator_margin"/><attr name="indicator_position"><enum name="left" value="0"/><enum name="center" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <dimen name="default_page_margin">10dp</dimen>
+    <dimen name="indicator_default_margin">8dp</dimen>
+    <item name="indivativeRadioGp" type="id"/>
+    <item name="iostitlebar_leftButton" type="id"/>
+    <item name="iostitlebar_rightButton" type="id"/>
+    <item name="iostitlebar_titleTextViewA" type="id"/>
+    <item name="iostitlebar_titleTextViewB" type="id"/>
+    <item name="pager" type="id"/>
+    <style name="IndicativeRadioGpBtn" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableTop">@drawable/indicativeradio_default_radio_drawtop_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="iostitlebarTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/iostitlebat_titletextview_color_selector</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toLeftOf">@id/iostitlebar_rightButton</item>
+        <item name="android:layout_toRightOf">@id/iostitlebar_leftButton</item>
+    </style>
+</resources>

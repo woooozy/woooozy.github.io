@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\indicativeradio_radiogp.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\indicativeradio_radiogp.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\reporter_notification_progress.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\reporter_notification_progress.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\scrolladv.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\scrolladv.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\updatehelper_dialog.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\updatehelper_dialog.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\updatehelper_notification_progress.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\updatehelper_notification_progress.xml"
+    },
+    {
+        "merged": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\iostitlebar.xml",
+        "source": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\layout\\iostitlebar.xml"
+    }
+]

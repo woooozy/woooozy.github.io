@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.sourceforge.simcpux">
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <application
+        android:name="net.sourceforge.simcpux.base.baseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="net.sourceforge.simcpux.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        <activity android:name="net.sourceforge.simcpux.RechargeActivity" />
+        <activity android:name=".cardbag.model.budeng.BoardChargeActivity">
+            <intent-filter>
+                <action android:name="net.sourceforge.simcpux.cardbag.model.budeng.charge" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!--<intent-filter>-->
+                <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+                <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="net.sourceforge.simcpux.HistoryActivity" />
+        <activity android:name="net.sourceforge.simcpux.QueryActivity" />
+        <activity android:name="net.sourceforge.simcpux.QueryResultActivity" />
+        <activity android:name="net.sourceforge.simcpux.RechargeOrderActivity" />
+        <activity android:name="net.sourceforge.simcpux.TryActivity" />
+        <activity android:name=".cardbag.model.budeng.ValidateActivity">
+            <intent-filter>
+                <action android:name="net.sourceforge.simcpux.cardbag.model.budeng.validate" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="net.sourceforge.simcpux.OtherValidateActivity" />
+    </application>
+
+</manifest>

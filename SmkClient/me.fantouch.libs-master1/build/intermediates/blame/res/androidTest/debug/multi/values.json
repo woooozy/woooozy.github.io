@@ -1,0 +1,201 @@
+[
+    {
+        "outputFile": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1985,
+                    "endColumn": 50,
+                    "endOffset": 2031
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1985,
+                        "endColumn": 50,
+                        "endOffset": 2031
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 2036,
+                    "endColumn": 54,
+                    "endOffset": 2086
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 2036,
+                        "endColumn": 54,
+                        "endOffset": 2086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 2091,
+                    "endColumn": 46,
+                    "endOffset": 2133
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 2091,
+                        "endColumn": 46,
+                        "endOffset": 2133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2138,
+                    "endColumn": 51,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 2138,
+                        "endColumn": 51,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endColumn": 52,
+                    "endOffset": 2238
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 2190,
+                        "endColumn": 52,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 2243,
+                    "endColumn": 55,
+                    "endOffset": 2294
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 2243,
+                        "endColumn": 55,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2299,
+                    "endColumn": 55,
+                    "endOffset": 2350
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 55,
+                        "endOffset": 2350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2355,
+                    "endColumn": 34,
+                    "endOffset": 2385
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2355,
+                        "endColumn": 34,
+                        "endOffset": 2385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2390,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 3096
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2390,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 3096
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3101,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 3795
+                },
+                "from": {
+                    "file": "C:\\ASProjects\\SmkClient\\me.fantouch.libs-master1\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3101,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 3795
+                    }
+                }
+            }
+        ]
+    }
+]

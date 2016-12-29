@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#F84324</color>
+    <color name="gray_progress">#E8E8EF</color>
+    <color name="primary">#FF03A9F4</color>
+    <color name="primary_dark">#FF0288D1</color>
+    <color name="status_bar_color">@color/primary_dark</color>
+    <color name="gray_btn">#b2b2b2</color>
+    <color name="gray_bg">#F5F5F5</color>
+    <color name="gray_tv">#bab5bf</color>
+
+    <color name="gray_one">#F3F3F3</color>
+    <color name="black_five">#686868</color>
+    <color name="red_one">#EE8D8D</color>
+    <color name="blue_list_item_selected">#a1b9d3</color>
+    <color name="white_five">#dadada</color>
+    <color name="white_six">#e7e7e7</color>
+</resources>

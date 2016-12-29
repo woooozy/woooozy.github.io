@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_top"
+        android:orientation="vertical">
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center">
+	    <TextView 
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginTop="30dp"
+    		android:layout_marginBottom="30dp"
+    		android:text="充值成功"
+    		android:textColor="@color/colorWhite"
+    		android:textSize="26sp"
+    		android:gravity="center_vertical"
+	        android:drawableLeft="@drawable/pay_success_bg"
+	        android:drawablePadding="5dp"/>
+	</LinearLayout>  
+		<TextView 
+		    android:id="@+id/msgText"
+		    android:layout_width="match_parent"
+    		android:layout_height="120dp"
+    		android:gravity="center"
+    		android:text="@string/notice_title"
+    		android:textColor="@color/colorWhite"
+    		android:textSize="14sp"
+		    />
+		
+	</LinearLayout>
+		<Button 
+		    android:id="@+id/confirmBtn"
+		    android:layout_width="280dp"
+		    android:layout_height="wrap_content"
+		    android:text="确定"
+		    android:textSize="22sp"
+		    android:background="@drawable/success_confirm"
+		    android:textColor="@color/colorWhite"/>
+</LinearLayout>

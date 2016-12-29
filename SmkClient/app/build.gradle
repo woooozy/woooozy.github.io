@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'//增加这一句
+android {
+    compileSdkVersion 23
+    buildToolsVersion '24.0.1'
+    useLibrary 'org.apache.http.legacy'
+//配置keystore签名
+    signingConfigs {
+        debug {
+            keyAlias DEBUG_KEY_ALIAS
+            storeFile file(DEBUG_STORE_FILE)
+            storePassword DEBUG_STORE_PASSWORD
+            keyAlias DEBUG_KEY_ALIAS
+            keyPassword DEBUG_KEY_PASSWORD
+        }
+        release {
+            storeFile file(DEBUG_STORE_FILE)
+            storePassword DEBUG_STORE_PASSWORD
+            keyPassword DEBUG_KEY_PASSWORD
+        }
+
+    }
+    defaultConfig {
+        applicationId 'net.sourceforge.simcpux'
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 70
+        versionName '1.5.3'
+        resConfig("zh")
+        multiDexEnabled true
+        signingConfig signingConfigs.debug
+    }
+    buildTypes {
+        debug {
+            versionNameSuffix ".dev"
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //eventbus
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //侧滑菜单有用的
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:percent:23.2.0'
+    compile 'com.balysv.materialmenu:material-menu:2.0.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    //json
+    compile 'com.alibaba:fastjson:1.2.17'
+    compile 'com.alibaba:fastjson:1.1.54.android'
+    //注解
+    compile 'com.jakewharton:butterknife:8.1.0'
+    //圆形头像
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    //adapter基类
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.5.8'
+    //log打印
+    compile 'com.orhanobut:logger:1.15'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+    //增加这一句
+    compile files('libs/android-async-http-1.4.6.jar')
+    compile project(':me.fantouch.libs-master1')
+    compile 'com.android.support:support-v4:23.2.0'
+    /*    // Android 平台下须引入的一个依赖，主要用于线程控制
+                            compile 'io.reactivex:rxandroid:1.1.0'
+                        // RxJava
+                            compile 'io.reactivex:rxjava:1.1.5'
+                            compile 'com.squareup.okhttp3:okhttp:3.2.0'
+                        //retrofit
+                            compile 'com.squareup.retrofit2:retrofit:2.0.2'
+                            compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+                            compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+                            compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'*/
+}
